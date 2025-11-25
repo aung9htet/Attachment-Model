@@ -23,6 +23,9 @@ class TailController:
 
 
 class AudioController:
+    """
+        TODO: Change this to alejandro's AudioController (When miro makes sound)
+    """
     """Control audio output."""
     
     def __init__(self):
@@ -54,7 +57,9 @@ class IlluminationController:
 
 
 class AudioDetector:
-    """Detect audio from microphones."""
+    """
+        TODO: Change this to alejandro's AudioDetector (When miro receives sound)
+    """
     
     def __init__(self):
         self.freq = 0
